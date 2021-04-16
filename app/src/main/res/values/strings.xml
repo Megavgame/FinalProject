@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Final Project</string>
+    <string name="selected_item">Selected item:</string>
+    <string name="roll">Roll</string>
+    <string-array name="dice_array">
+        <item>d4</item>
+        <item>d6</item>
+        <item>d8</item>
+        <item>d10</item>
+        <item>d12</item>
+        <item>d20</item>
+        <item>d100</item>
+    </string-array>
+    <integer-array name="dicemax">
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>20</item>
+        <item>100</item>
+    </integer-array>
+</resources>
