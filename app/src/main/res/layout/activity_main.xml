@@ -8,11 +8,12 @@
 
     <TextView
         android:id="@+id/dicebox"
-        android:layout_width="76dp"
-        android:layout_height="30dp"
-        android:layout_marginStart="167dp"
-        android:layout_marginLeft="167dp"
-        android:layout_marginTop="435dp"
+        android:layout_width="23dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="192dp"
+        android:layout_marginLeft="192dp"
+        android:layout_marginTop="496dp"
+        android:clickable="false"
         android:text=""
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -35,6 +36,16 @@
         android:layout_marginLeft="160dp"
         android:layout_marginTop="340dp"
         android:text="@string/roll"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="127dp"
+        android:layout_height="142dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="432dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
