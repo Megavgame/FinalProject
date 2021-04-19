@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.*
+import androidx.core.view.isVisible
 import kotlin.random.Random
 
 class MainActivity : AppCompatActivity() {
@@ -24,6 +25,7 @@ class MainActivity : AppCompatActivity() {
         var button2: Button = findViewById(R.id.Clear)
         var image: ImageView = findViewById(R.id.imageView)
         var spinner: Spinner = findViewById(R.id.spinner)
+        var totalText: TextView = findViewById(R.id.TotalText)
         var switch: Switch = findViewById(R.id.Add)
 
 
@@ -35,6 +37,8 @@ class MainActivity : AppCompatActivity() {
                     android.R.layout.simple_spinner_item, dice
             )
             spinner.adapter = adapter
+            totalText.isVisible = false
+            txtTotalInput.isVisible = false
 
             spinner.onItemSelectedListener = object :
                     AdapterView.OnItemSelectedListener {
@@ -42,13 +46,21 @@ class MainActivity : AppCompatActivity() {
                                             view: View, position: Int, id: Long) {
                     Toast.makeText(this@MainActivity, getString(R.string.selected_item) + " " +
                                     "" + dice[position], Toast.LENGTH_SHORT).show()
+                    switch.setOnClickListener {
+                        if(switch.isChecked) {
+                            totalText.isVisible = true
+                            txtTotalInput.isVisible = true
+                        }else{
+                            totalText.isVisible = false
+                            txtTotalInput.isVisible = false
+                        }
+                    }
                     button.setOnClickListener {
                         val random = Random.nextInt(1, dicemax[position] + 1)
                         if(switch.isChecked){
                             total = total + random
                             txtTotalInput.text = total.toString()
-                        }
-                        else{
+
                         }
                         txtInput.text = random.toString()
                     }
