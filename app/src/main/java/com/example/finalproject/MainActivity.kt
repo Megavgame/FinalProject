@@ -7,8 +7,9 @@ import android.widget.*
 import kotlin.random.Random
 
 class MainActivity : AppCompatActivity() {
-
+    var total: Int = 0
     lateinit var txtInput: TextView
+    lateinit var txtTotalInput: TextView
 
 
 
@@ -16,11 +17,17 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         txtInput = findViewById(R.id.dicebox)
+        txtTotalInput = findViewById(R.id.Total)
         val dice = resources.getStringArray(R.array.dice_array)
         val dicemax = resources.getIntArray(R.array.dicemax)
-        var button: Button = findViewById(R.id.button)
+        var button: Button = findViewById(R.id.Roll)
+        var button2: Button = findViewById(R.id.Clear)
         var image: ImageView = findViewById(R.id.imageView)
         var spinner: Spinner = findViewById(R.id.spinner)
+        var switch: Switch = findViewById(R.id.Add)
+
+
+
 
         if (spinner != null) {
             val adapter = ArrayAdapter(
@@ -33,12 +40,21 @@ class MainActivity : AppCompatActivity() {
                     AdapterView.OnItemSelectedListener {
                 override fun onItemSelected(parent: AdapterView<*>,
                                             view: View, position: Int, id: Long) {
-                    Toast.makeText(this@MainActivity,
-                            getString(R.string.selected_item) + " " +
+                    Toast.makeText(this@MainActivity, getString(R.string.selected_item) + " " +
                                     "" + dice[position], Toast.LENGTH_SHORT).show()
                     button.setOnClickListener {
                         val random = Random.nextInt(1, dicemax[position] + 1)
+                        if(switch.isChecked){
+                            total = total + random
+                            txtTotalInput.text = total.toString()
+                        }
+                        else{
+                        }
                         txtInput.text = random.toString()
+                    }
+                    button2.setOnClickListener{
+                        txtTotalInput.text = ""
+                        total = 0
                     }
                     if(position == 0){
                         image.setBackgroundResource(R.drawable.d4)

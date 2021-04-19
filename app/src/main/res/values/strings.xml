@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Final Project</string>
+    <string name="app_name">Dice Roller Supreme</string>
     <string name="selected_item">Selected item:</string>
     <string name="roll">Roll</string>
     <string-array name="dice_array">
