@@ -5,7 +5,7 @@ Dice Roller Supreme
 
 By Christopher LeBlanc
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+_________________________________________________________________________________________________________________________________________________________________
 
 
 Welcome to Dice Roller Supreme!
@@ -28,7 +28,7 @@ Troubleshooting Tips
 
 Change Log
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+_________________________________________________________________________________________________________________________________________________________________
 
 Introduction
 
@@ -67,14 +67,21 @@ Here there are 4 new text boxes that show up, for the subtotal it will only work
 
 Small notice here, with choosing an amount of dice you wish to roll, you must first choose a dice other than the one selected for it to show the pictures. This is included in the bug list.
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+_________________________________________________________________________________________________________________________________________________________________
 
 Configuration/Installation Instructions
 
 Use whatever you require to install this on your machine, weither you use an export to your android studio or directly copy the code to a new project it should work. There is no current way to install this project using one easy button, but you may wish to export this to a file and import it to android studio.
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+_________________________________________________________________________________________________________________________________________________________________
 
 Operating Instructions
 
-To operate this app, you must use an AVD or connect an android device and run the program through android studio, from there you may access the programs features and 
+To operate this app, you must use an AVD or connect an android device and run the program through android studio, from there you may access the programs features and dice rolling stuff. If you need an explanation on each part of the app, refer to the features where a detailed step by step program is explained.
+
+_________________________________________________________________________________________________________________________________________________________________
+
+Manifest
+
+
+
