@@ -123,38 +123,56 @@ Change Log
 v0.2
 
 -Added basic functionality to roll buttons and spinners
+
 -Added textview
+
 -Added buttons and spinners
+
 -First stage of the program
 
 v0.4 
 
 -Added photos
+
 -Added functionality with spinner to change photos
+
 -Added single imageview to project
 
 v0.6
 
 -Added a total text box
+
 -Added a switch to tell if you want to add to a total or not
+
 -Gave functionality to the switch and textview
+
 -Gave funtionality to switch by hiding and unhiding the total textbox and total view textbox
 
 v0.8
 
 -Added another spinner to select an amount of dice
+
 -Added 9 more imageviews and textviews
+
 -Added a subtotal text box
+
 -Gave functionality to spinner
+
 -Changed around the function of spinners and switches
+
 -Switch now hides all totals and subtotals
+
 
 v1.0
 
 -Final Stage of the program, this is a completed version but more still may be added in the future
+
 -Added comments to the kotlin file
+
 -Added new images that work with the imageviews
+
 -Changed d100 to accept new picture
+
 -Changed textcolors to help with visibility
 
 _________________________________________________________________________________________________________________________________________________________________
