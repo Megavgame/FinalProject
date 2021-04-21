@@ -29,6 +29,7 @@ Troubleshooting Tips
 
 Change Log
 
+
 Introduction
 
 Welcome to Dice Roller Supreme, this application was made entirely by me. 
