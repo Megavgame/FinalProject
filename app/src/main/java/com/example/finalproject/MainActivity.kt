@@ -380,22 +380,22 @@ class MainActivity : AppCompatActivity() {
                         }
                     } else if (position == 6) {
                         if (pos == 0) {
-                            image.setBackgroundResource(R.drawable.d20)
+                            image.setBackgroundResource(R.drawable.d100)
                         }
                         else if (pos == 1){
-                            image2.setBackgroundResource(R.drawable.d20)
-                            image3.setBackgroundResource(R.drawable.d20)
+                            image2.setBackgroundResource(R.drawable.d100)
+                            image3.setBackgroundResource(R.drawable.d100)
                         }
                         else if(pos == 2){
-                            image4.setBackgroundResource(R.drawable.d20)
-                            image5.setBackgroundResource(R.drawable.d20)
-                            image6.setBackgroundResource(R.drawable.d20)
+                            image4.setBackgroundResource(R.drawable.d100)
+                            image5.setBackgroundResource(R.drawable.d100)
+                            image6.setBackgroundResource(R.drawable.d100)
                         }
                         else if(pos == 3){
-                            image7.setBackgroundResource(R.drawable.d20)
-                            image8.setBackgroundResource(R.drawable.d20)
-                            image9.setBackgroundResource(R.drawable.d20)
-                            image10.setBackgroundResource(R.drawable.d20)
+                            image7.setBackgroundResource(R.drawable.d100)
+                            image8.setBackgroundResource(R.drawable.d100)
+                            image9.setBackgroundResource(R.drawable.d100)
+                            image10.setBackgroundResource(R.drawable.d100)
                         }
 
                     }
