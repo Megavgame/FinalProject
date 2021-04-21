@@ -1,10 +1,11 @@
+
 # FinalProject
 
 Dice Roller Supreme
 
 By Christopher LeBlanc
 
-/////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 Welcome to Dice Roller Supreme!
@@ -29,7 +30,7 @@ Troubleshooting Tips
 
 Change Log
 
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 Introduction
 
@@ -59,3 +60,13 @@ Spinner 1 the dice chooser, when you tap on this spinner it will show a list of 
 Spinner 2 to the right of that one is the amount of dice you wish to roll at once, due to limitations with the screen size, you may only roll 4 dice at once without having problems with spacing so use that to your advantage if you need to roll 6 or more.
 
 The last object is the switch, this switch will tell the program weither or not you want to add up all of the dice into one subtotal or an overall total, which we will get onto the next image.
+
+![Screenshot_322](https://user-images.githubusercontent.com/82187028/115611101-acfe6480-a2b7-11eb-8435-7b35c078b1b2.png)
+
+Here there are 4 new text boxes that show up, for the subtotal it will only work when there are 2 or more dice on screen. Total will work regardless of dice. The subtotal will add up the current dice roll only, while the total will add up all dice and add it to the total. 
+
+Small notice here, with choosing an amount of dice you wish to roll, you must first choose a dice other than the one selected for it to show the pictures. This is included in the bug list.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Configuration Instructions
