@@ -12,13 +12,21 @@ Welcome to Dice Roller Supreme!
 Here you will find things such as:
 
 Introduction
+
 Features
+
 Configuration Instructions
+
 Installation Instructions
+
 Operating Instructions
+
 Manifest
+
 Bug List
+
 Troubleshooting Tips
+
 Change Log
 
 Introduction
