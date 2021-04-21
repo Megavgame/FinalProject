@@ -130,6 +130,7 @@
             android:layout_marginStart="169dp"
             android:layout_marginLeft="0dp"
             android:layout_marginTop="400dp"
+            android:textColor="@color/black"
             android:text=""
             android:textSize="20sp"/>
 
@@ -140,6 +141,7 @@
             android:layout_marginStart="110dp"
             android:layout_marginLeft="0dp"
             android:layout_marginTop="403dp"
+            android:textColor="@color/black"
             android:text="Total:"
             android:textSize="20sp" />
 
@@ -170,6 +172,7 @@
             android:layout_marginTop="168dp"
             android:clickable="false"
             android:gravity="center_horizontal"
+            android:textColor="@color/black"
             android:text=""
             android:textAlignment="center"
             android:textSize="36sp"
@@ -184,6 +187,7 @@
             android:layout_marginTop="180dp"
             android:clickable="false"
             android:gravity="center_horizontal"
+            android:textColor="@color/black"
             android:text=""
             android:textAlignment="center"
             android:textSize="20sp"
@@ -198,6 +202,7 @@
             android:layout_marginTop="180dp"
             android:clickable="false"
             android:gravity="center_horizontal"
+            android:textColor="@color/black"
             android:text=""
             android:textAlignment="center"
             android:textSize="20sp"
@@ -212,6 +217,7 @@
             android:layout_marginTop="255dp"
             android:clickable="false"
             android:gravity="center_horizontal"
+            android:textColor="@color/black"
             android:text=""
             android:textAlignment="center"
             android:textSize="20sp"
@@ -226,6 +232,7 @@
             android:layout_marginTop="255dp"
             android:clickable="false"
             android:gravity="center_horizontal"
+            android:textColor="@color/black"
             android:text=""
             android:textAlignment="center"
             android:textSize="20sp"
@@ -240,6 +247,7 @@
             android:layout_marginTop="105dp"
             android:clickable="false"
             android:gravity="center_horizontal"
+            android:textColor="@color/black"
             android:text=""
             android:textAlignment="center"
             android:textSize="20sp"
@@ -254,6 +262,7 @@
             android:layout_marginTop="255dp"
             android:clickable="false"
             android:gravity="center_horizontal"
+            android:textColor="@color/black"
             android:text=""
             android:textAlignment="center"
             android:textSize="20sp"
@@ -268,6 +277,7 @@
             android:layout_marginTop="255dp"
             android:clickable="false"
             android:gravity="center_horizontal"
+            android:textColor="@color/black"
             android:text=""
             android:textAlignment="center"
             android:textSize="20sp"
@@ -282,6 +292,7 @@
             android:layout_marginTop="105dp"
             android:clickable="false"
             android:gravity="center_horizontal"
+            android:textColor="@color/black"
             android:text=""
             android:textAlignment="center"
             android:textSize="20sp"
@@ -296,6 +307,7 @@
             android:layout_marginTop="105dp"
             android:clickable="false"
             android:gravity="center_horizontal"
+            android:textColor="@color/black"
             android:text=""
             android:textAlignment="center"
             android:textSize="20sp"
@@ -308,6 +320,7 @@
             android:layout_marginStart="169dp"
             android:layout_marginLeft="0dp"
             android:layout_marginTop="360dp"
+            android:textColor="@color/black"
             android:text=""
             android:textSize="20sp" />
 
@@ -319,6 +332,7 @@
             android:layout_marginLeft="0dp"
             android:layout_marginTop="363dp"
             android:textSize="20sp"
+            android:textColor="@color/black"
             android:text="Subtotal:" />
 
     </FrameLayout>
