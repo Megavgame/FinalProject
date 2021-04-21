@@ -4,7 +4,7 @@ Dice Roller Supreme
 
 By Christopher LeBlanc
 
-///////////////////
+/////////////////////////////
 
 
 Welcome to Dice Roller Supreme!
@@ -29,6 +29,7 @@ Troubleshooting Tips
 
 Change Log
 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 Introduction
 
