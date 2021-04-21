@@ -16,9 +16,7 @@ Introduction
 
 Features
 
-Configuration Instructions
-
-Installation Instructions
+Configuration/Installation Instructions
 
 Operating Instructions
 
@@ -41,6 +39,8 @@ Firstly this readme will have in detail of pretty much every aspect of the files
 Also this readme will include any instructions, a list of bugs and such.
 Lastly this readme will include my contact info as well as a change log and troubleshooting tips for you leisure
 Get onto it already!
+
+_________________________________________________________________________________________________________________________________________________________________
 
 Features 
 
@@ -69,4 +69,12 @@ Small notice here, with choosing an amount of dice you wish to roll, you must fi
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-Configuration Instructions
+Configuration/Installation Instructions
+
+Use whatever you require to install this on your machine, weither you use an export to your android studio or directly copy the code to a new project it should work. There is no current way to install this project using one easy button, but you may wish to export this to a file and import it to android studio.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Operating Instructions
+
+To operate this app, you must use an AVD or connect an android device and run the program through android studio, from there you may access the programs features and 
