@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        //This large line of text will initalize all of the variables used for the screen
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         txtInput = findViewById(R.id.dicebox)
@@ -64,6 +65,7 @@ class MainActivity : AppCompatActivity() {
         txtTotalInput.isVisible = false
         subTotalText.isVisible = false
         subTotalView.isVisible = false
+        //This is the spinner to create the numbers that populate it
         if (spinner2 != null) {
             val adapter2 = ArrayAdapter(this, android.R.layout.simple_spinner_item, amofdice)
             spinner2.adapter = adapter2
@@ -74,6 +76,7 @@ class MainActivity : AppCompatActivity() {
                                         view: View, position: Int, id: Long) {
                 Toast.makeText(this@MainActivity, getString(R.string.selected_item) + " " +
                         "" + amofdice[position], Toast.LENGTH_SHORT).show()
+                //this will hide or show the images or text depending on the number shown
                 if(position == 0){
                     txtInput.isVisible = true
                     image.isVisible = true
@@ -167,14 +170,14 @@ class MainActivity : AppCompatActivity() {
                     pos = 3
                 }
             }
-
+            //purposely does nothing
             override fun onNothingSelected(parent: AdapterView<*>) {
                 // write code to perform some action
             }
         }
 
 
-
+        //Second spinner used for selecting the dice and show you what you selected
         if (spinner != null)
         {
             val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, dice)
@@ -186,6 +189,7 @@ class MainActivity : AppCompatActivity() {
                                             view: View, position: Int, id: Long) {
                     Toast.makeText(this@MainActivity, getString(R.string.selected_item) + " " +
                             "" + dice[position], Toast.LENGTH_SHORT).show()
+                    //Switch event handling, will show the subtotal and total when on
                     switch.setOnClickListener {
                         if (switch.isChecked) {
                             totalText.isVisible = true
@@ -201,7 +205,7 @@ class MainActivity : AppCompatActivity() {
 
                         }
                     }
-
+                    //This will roll the dice and add to the total if the switch is enabled also dependent on the amount of dice
                     button.setOnClickListener {
                         if (pos == 0) {
                             val random = Random.nextInt(1, dicemax[position] + 1)
@@ -254,10 +258,12 @@ class MainActivity : AppCompatActivity() {
                             txtInput10.text = random4.toString()
                         }
                     }
+                    //This will clear the text
                     button2.setOnClickListener {
                         txtTotalInput.text = ""
                         total = 0
                     }
+                    //This will switch the pictures background depending on dice amount and choice
                     if (position == 0) {
                         if (pos == 0) {
                             image.setBackgroundResource(R.drawable.d4)
@@ -395,7 +401,7 @@ class MainActivity : AppCompatActivity() {
                     }
 
                 }
-
+                //purposely does nothing
                 override fun onNothingSelected(parent: AdapterView<*>) {
                     // write code to perform some action
                 }
