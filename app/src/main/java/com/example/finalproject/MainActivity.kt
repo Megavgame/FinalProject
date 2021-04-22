@@ -265,141 +265,83 @@ class MainActivity : AppCompatActivity() {
                     }
                     //This will switch the pictures background depending on dice amount and choice
                     if (position == 0) {
-                        if (pos == 0) {
-                            image.setBackgroundResource(R.drawable.d4)
-                        }
-                        else if (pos == 1){
-                            image2.setBackgroundResource(R.drawable.d4)
-                            image3.setBackgroundResource(R.drawable.d4)
-                        }
-                        else if(pos == 2){
-                            image4.setBackgroundResource(R.drawable.d4)
-                            image5.setBackgroundResource(R.drawable.d4)
-                            image6.setBackgroundResource(R.drawable.d4)
-                        }
-                        else if(pos == 3){
-                            image7.setBackgroundResource(R.drawable.d4)
-                            image8.setBackgroundResource(R.drawable.d4)
-                            image9.setBackgroundResource(R.drawable.d4)
-                            image10.setBackgroundResource(R.drawable.d4)
-                        }
+                        image.setBackgroundResource(R.drawable.d4)
+                        image2.setBackgroundResource(R.drawable.d4)
+                        image3.setBackgroundResource(R.drawable.d4)
+                        image4.setBackgroundResource(R.drawable.d4)
+                        image5.setBackgroundResource(R.drawable.d4)
+                        image6.setBackgroundResource(R.drawable.d4)
+                        image7.setBackgroundResource(R.drawable.d4)
+                        image8.setBackgroundResource(R.drawable.d4)
+                        image9.setBackgroundResource(R.drawable.d4)
+                        image10.setBackgroundResource(R.drawable.d4)
                     } else if (position == 1) {
-                        if (pos == 0) {
-                            image.setBackgroundResource(R.drawable.d6)
-                        }
-                        else if (pos == 1){
-                            image2.setBackgroundResource(R.drawable.d6)
-                            image3.setBackgroundResource(R.drawable.d6)
-                        }
-                        else if(pos == 2){
-                            image4.setBackgroundResource(R.drawable.d6)
-                            image5.setBackgroundResource(R.drawable.d6)
-                            image6.setBackgroundResource(R.drawable.d6)
-                        }
-                        else if(pos == 3){
-                            image7.setBackgroundResource(R.drawable.d6)
-                            image8.setBackgroundResource(R.drawable.d6)
-                            image9.setBackgroundResource(R.drawable.d6)
-                            image10.setBackgroundResource(R.drawable.d6)
-                        }
+                        image.setBackgroundResource(R.drawable.d6)
+                        image2.setBackgroundResource(R.drawable.d6)
+                        image3.setBackgroundResource(R.drawable.d6)
+                        image4.setBackgroundResource(R.drawable.d6)
+                        image5.setBackgroundResource(R.drawable.d6)
+                        image6.setBackgroundResource(R.drawable.d6)
+                        image7.setBackgroundResource(R.drawable.d6)
+                        image8.setBackgroundResource(R.drawable.d6)
+                        image9.setBackgroundResource(R.drawable.d6)
+                        image10.setBackgroundResource(R.drawable.d6)
                     } else if (position == 2) {
-                        if (pos == 0) {
-                            image.setBackgroundResource(R.drawable.d8)
-                        }
-                        else if (pos == 1){
-                            image2.setBackgroundResource(R.drawable.d8)
-                            image3.setBackgroundResource(R.drawable.d8)
-                        }
-                        else if(pos == 2){
-                            image4.setBackgroundResource(R.drawable.d8)
-                            image5.setBackgroundResource(R.drawable.d8)
-                            image6.setBackgroundResource(R.drawable.d8)
-                        }
-                        else if(pos == 3){
-                            image7.setBackgroundResource(R.drawable.d8)
-                            image8.setBackgroundResource(R.drawable.d8)
-                            image9.setBackgroundResource(R.drawable.d8)
-                            image10.setBackgroundResource(R.drawable.d8)
-                        }
+                        image.setBackgroundResource(R.drawable.d8)
+                        image2.setBackgroundResource(R.drawable.d8)
+                        image3.setBackgroundResource(R.drawable.d8)
+                        image4.setBackgroundResource(R.drawable.d8)
+                        image5.setBackgroundResource(R.drawable.d8)
+                        image6.setBackgroundResource(R.drawable.d8)
+                        image7.setBackgroundResource(R.drawable.d8)
+                        image8.setBackgroundResource(R.drawable.d8)
+                        image9.setBackgroundResource(R.drawable.d8)
+                        image10.setBackgroundResource(R.drawable.d8)
                     } else if (position == 3) {
-                        if (pos == 0) {
-                            image.setBackgroundResource(R.drawable.d10)
-                        }
-                        else if (pos == 1){
-                            image2.setBackgroundResource(R.drawable.d10)
-                            image3.setBackgroundResource(R.drawable.d10)
-                        }
-                        else if(pos == 2){
-                            image4.setBackgroundResource(R.drawable.d10)
-                            image5.setBackgroundResource(R.drawable.d10)
-                            image6.setBackgroundResource(R.drawable.d10)
-                        }
-                        else if(pos == 3){
-                            image7.setBackgroundResource(R.drawable.d10)
-                            image8.setBackgroundResource(R.drawable.d10)
-                            image9.setBackgroundResource(R.drawable.d10)
-                            image10.setBackgroundResource(R.drawable.d10)
-                        }
+                        image.setBackgroundResource(R.drawable.d10)
+                        image2.setBackgroundResource(R.drawable.d10)
+                        image3.setBackgroundResource(R.drawable.d10)
+                        image4.setBackgroundResource(R.drawable.d10)
+                        image5.setBackgroundResource(R.drawable.d10)
+                        image6.setBackgroundResource(R.drawable.d10)
+                        image7.setBackgroundResource(R.drawable.d10)
+                        image8.setBackgroundResource(R.drawable.d10)
+                        image9.setBackgroundResource(R.drawable.d10)
+                        image10.setBackgroundResource(R.drawable.d10)
                     } else if (position == 4) {
-                        if (pos == 0) {
-                            image.setBackgroundResource(R.drawable.d12)
-                        }
-                        else if (pos == 1){
-                            image2.setBackgroundResource(R.drawable.d12)
-                            image3.setBackgroundResource(R.drawable.d12)
-                        }
-                        else if(pos == 2){
-                            image4.setBackgroundResource(R.drawable.d12)
-                            image5.setBackgroundResource(R.drawable.d12)
-                            image6.setBackgroundResource(R.drawable.d12)
-                        }
-                        else if(pos == 3){
-                            image7.setBackgroundResource(R.drawable.d12)
-                            image8.setBackgroundResource(R.drawable.d12)
-                            image9.setBackgroundResource(R.drawable.d12)
-                            image10.setBackgroundResource(R.drawable.d12)
-                        }
+                        image.setBackgroundResource(R.drawable.d12)
+                        image2.setBackgroundResource(R.drawable.d12)
+                        image3.setBackgroundResource(R.drawable.d12)
+                        image4.setBackgroundResource(R.drawable.d12)
+                        image5.setBackgroundResource(R.drawable.d12)
+                        image6.setBackgroundResource(R.drawable.d12)
+                        image7.setBackgroundResource(R.drawable.d12)
+                        image8.setBackgroundResource(R.drawable.d12)
+                        image9.setBackgroundResource(R.drawable.d12)
+                        image10.setBackgroundResource(R.drawable.d12)
                     } else if (position == 5) {
-                        if (pos == 0) {
-                            image.setBackgroundResource(R.drawable.d20)
-                        }
-                        else if (pos == 1){
-                            image2.setBackgroundResource(R.drawable.d20)
-                            image3.setBackgroundResource(R.drawable.d20)
-                        }
-                        else if(pos == 2){
-                            image4.setBackgroundResource(R.drawable.d20)
-                            image5.setBackgroundResource(R.drawable.d20)
-                            image6.setBackgroundResource(R.drawable.d20)
-                        }
-                        else if(pos == 3){
-                            image7.setBackgroundResource(R.drawable.d20)
-                            image8.setBackgroundResource(R.drawable.d20)
-                            image9.setBackgroundResource(R.drawable.d20)
-                            image10.setBackgroundResource(R.drawable.d20)
-                        }
+                        image.setBackgroundResource(R.drawable.d20)
+                        image2.setBackgroundResource(R.drawable.d20)
+                        image3.setBackgroundResource(R.drawable.d20)
+                        image4.setBackgroundResource(R.drawable.d20)
+                        image5.setBackgroundResource(R.drawable.d20)
+                        image6.setBackgroundResource(R.drawable.d20)
+                        image7.setBackgroundResource(R.drawable.d20)
+                        image8.setBackgroundResource(R.drawable.d20)
+                        image9.setBackgroundResource(R.drawable.d20)
+                        image10.setBackgroundResource(R.drawable.d20)
                     } else if (position == 6) {
-                        if (pos == 0) {
-                            image.setBackgroundResource(R.drawable.d100)
-                        }
-                        else if (pos == 1){
-                            image2.setBackgroundResource(R.drawable.d100)
-                            image3.setBackgroundResource(R.drawable.d100)
-                        }
-                        else if(pos == 2){
-                            image4.setBackgroundResource(R.drawable.d100)
-                            image5.setBackgroundResource(R.drawable.d100)
-                            image6.setBackgroundResource(R.drawable.d100)
-                        }
-                        else if(pos == 3){
-                            image7.setBackgroundResource(R.drawable.d100)
-                            image8.setBackgroundResource(R.drawable.d100)
-                            image9.setBackgroundResource(R.drawable.d100)
-                            image10.setBackgroundResource(R.drawable.d100)
-                        }
-
+                        image.setBackgroundResource(R.drawable.d100)
+                        image2.setBackgroundResource(R.drawable.d100)
+                        image3.setBackgroundResource(R.drawable.d100)
+                        image4.setBackgroundResource(R.drawable.d100)
+                        image5.setBackgroundResource(R.drawable.d100)
+                        image6.setBackgroundResource(R.drawable.d100)
+                        image7.setBackgroundResource(R.drawable.d100)
+                        image8.setBackgroundResource(R.drawable.d100)
+                        image9.setBackgroundResource(R.drawable.d100)
+                        image10.setBackgroundResource(R.drawable.d100)
                     }
-
                 }
                 //purposely does nothing
                 override fun onNothingSelected(parent: AdapterView<*>) {
