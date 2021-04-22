@@ -346,6 +346,7 @@ class MainActivity : AppCompatActivity() {
                 //purposely does nothing
                 override fun onNothingSelected(parent: AdapterView<*>) {
                     // write code to perform some action
+                    //does nothing
                 }
 
 
