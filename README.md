@@ -102,7 +102,7 @@ ________________________________________________________________________________
 
 Bug List
 
--Bug with the dice not showing up with the change of amount of dice
+-Bug with the dice not showing up with the change of amount of dice FIXED!
 
 -Possible issues with reading text in some dice, if changes need to be made then contact me
 
@@ -176,6 +176,10 @@ v1.0
 -Changed d100 to accept new picture
 
 -Changed textcolors to help with visibility
+
+v1.01
+
+-Fixed Bug included in Bug List
 
 _________________________________________________________________________________________________________________________________________________________________
 
